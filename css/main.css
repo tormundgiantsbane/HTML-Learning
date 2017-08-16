@@ -151,6 +151,11 @@ h1, h3, h4, h5, p {
 .tagline{
 	margin: 66px 0 22px 0;
 }
+
+.primary-nav{
+	font-size: 14px;
+	font-weight: 400;
+}
 /*
   ========================================
   Primary footer
@@ -158,11 +163,14 @@ h1, h3, h4, h5, p {
 */
 
 .primary-footer {
-  padding-bottom: 44px;
-  padding-top: 44px;
+	color: #648880;
+	font-size: 14px;
+	padding-bottom: 44px;
+	padding-top: 44px;
 }
 .primary-footer small {
-  float: left;
+	float: left;
+	font-weight: 400;
 }
 
 /*
@@ -172,7 +180,16 @@ h1, h3, h4, h5, p {
 */
 
 .hero {
-  padding: 22px 80px 66px 80px;
+	line-height: 44px;
+	padding: 22px 80px 66px 80px;
+	}
+
+.hero h2{
+	font-size: 36px;
+}
+
+.hero p{
+	font-size: 24px;
 }
 
 
@@ -236,4 +253,8 @@ a:hover{
 
 a{
 	color: #648880;
+}
+
+.teaser a:hover h3{
+	color: #a9b2b9;
 }
