@@ -140,11 +140,14 @@ h1, h3, h4, h5, p {
 */
 
 .logo {
-  border-top: 4px solid #648880;
-  float: left;
+	border-top: 4px solid #648880;
+	float: left;
 	font-size: 48px;
+	font-weight: 100;
 	line-height: 44px;
-  padding: 40px 0 22px 0;
+	letter-spacing: .5px;
+	padding: 40px 0 22px 0;
+	text-transform: uppercase;
 }
 
 
@@ -194,6 +197,7 @@ h1, h3, h4, h5, p {
 
 .hero p{
 	font-size: 24px;
+	font-weight: 100;
 }
 
 
@@ -206,7 +210,7 @@ Custom Styles
 
 body{
 	color: #888;
-	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4{
@@ -257,6 +261,7 @@ a:hover{
 }
 
 a{
+	text-decoration: none;
 	color: #648880;
 }
 
